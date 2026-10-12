@@ -20,7 +20,7 @@ git merge branch-name             -->merge two branches if there is no conflicts
 <h2>Undoing changes</h2>
 git  reset file-name                                --> undo last commit<br>
 git reset head~1                                    --> commit goes  back one step<br>
-git push --force-with-lease origin <branch-name>    --> to reset on remote repo
+git push --force-with-lease origin <branch-name>    --> to reset on remote repo<br>
 git reset   commit-hash                             --> go back  to specific commit<br>
 git reset --hard  commit-hash                       --> changes are done vscode also<br>
 
